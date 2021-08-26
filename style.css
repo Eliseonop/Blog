@@ -1,0 +1,83 @@
+html body{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    height: 100%;
+    
+
+}
+h1{
+    display: inline-block;
+    
+    margin-left: 20px;
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 15px;
+    background-color: ;
+}
+header {
+    background-color: rgb(200, 158, 240);
+    border-style: double;
+}
+.navegador form{
+    
+    display: inline-block;
+    margin-left: 50%;
+    margin-bottom: 20px;
+}
+.enlaces{
+    display: inline-block;
+    margin-left: 30px;
+}
+main{
+    border-color: aquamarine;
+    width: 100%
+   
+    border: 2px solid black;
+}
+article{
+  
+    display: inline-block ;
+    width:70%;
+    height: 100%;
+    border-style: double;
+}
+.cajas {
+    text-align: center;
+    border-style: outset;
+    height: ;
+}
+.img{
+    text-align: center;
+}
+aside{
+    width: 28%;
+
+    display:inline-block;
+    flex-direction: column;
+    justify-content:flex-start;
+    align-content: center;
+    
+    border: 1px silid black;
+    
+}
+aside>nav{
+    text-align: center;
+    border-style: outset;
+    height: ;
+
+}
+footer{
+    border-style: solid;
+    display: flex;
+}
+.navfinal{
+    display: inline-block;
+    text-align: end;
+    margin-left: 500px;
+
+}
+.navfinal>a{
+    margin: 10px;
+}
+h3{
+    display: inline-block;
+}
