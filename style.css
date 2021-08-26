@@ -1,83 +1,61 @@
-html body{
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    height: 100%;
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    margin: 0 auto;
     
-
-}
-h1{
-    display: inline-block;
-    
-    margin-left: 20px;
-    padding: 10px;
-    border: 2px solid black;
-    border-radius: 15px;
-    background-color: ;
-}
-header {
-    background-color: rgb(200, 158, 240);
-    border-style: double;
-}
-.navegador form{
-    
-    display: inline-block;
-    margin-left: 50%;
-    margin-bottom: 20px;
-}
-.enlaces{
-    display: inline-block;
-    margin-left: 30px;
+    width: 1200px;
+    height: 700px;
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    grid-template-rows:  1fr 1fr 1fr ;
 }
 main{
-    border-color: aquamarine;
-    width: 100%
-   
-    border: 2px solid black;
+    grid-column: 1/4  
+}
+main{ 
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    grid-template-rows:  150px 150px 150px   ;
 }
 article{
-  
-    display: inline-block ;
-    width:70%;
-    height: 100%;
-    border-style: double;
-}
-.cajas {
-    text-align: center;
-    border-style: outset;
-    height: ;
-}
-.img{
-    text-align: center;
+    border: 1px solid black;
+    background-color: lightseagreen;
+    grid-column: 1/3;
+    grid-row: 1/4;
 }
 aside{
-    width: 28%;
-
-    display:inline-block;
-    flex-direction: column;
-    justify-content:flex-start;
-    align-content: center;
-    
-    border: 1px silid black;
-    
+    background-color: lightgreen;
+    border-style: double;
+    grid-column: 3/4;
+    grid-row: 1/4;
 }
-aside>nav{
-    text-align: center;
-    border-style: outset;
-    height: ;
-
+header{
+    background-color: bisque;
+    grid-column: 1/4
 }
 footer{
-    border-style: solid;
-    display: flex;
+    background-color: gold;
+    grid-column: 1/4
 }
-.navfinal{
-    display: inline-block;
-    text-align: end;
-    margin-left: 500px;
+header, footer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
 
 }
-.navfinal>a{
-    margin: 10px;
+.navegador{
+    grid-column: 2/4;
 }
-h3{
+.enlaces, form{
+    margin-left:70px ;  
     display: inline-block;
+    margin-top: 50px;
+}
+h1{
+    font-size: 50px;
+    margin-left: 30px;
+    
+    
 }
